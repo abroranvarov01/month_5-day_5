@@ -1,0 +1,34 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 40px;
+  column-gap: 24px;
+}
+.img {
+  margin-bottom: 12px;
+}
+.title {
+  font-family: var(--third-family);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 127%;
+  color: #222;
+}
+.text {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 127%;
+  color: #717171;
+}
+.cost_text {
+  font-family: var(--third-family);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 127%;
+  color: #222;
+  margin-top: 8px;
+}
+.item {
+  width: 302px;
+}
